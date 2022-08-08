@@ -1,0 +1,308 @@
+/* Install Poppins's Fonts */
+@font-face {
+	font-family: Poppins;
+	src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+/* Install Nunito's Fonts */
+@font-face {
+	font-family: Nunito;
+	src: url(../assets/fonts/Nunito/Nunito-Regular.ttf);
+}
+
+/* General */
+body {
+	font-family: Poppins;
+	background-color: #fafafa;
+	font-size: 1em;
+	margin: 0px 60px;
+}
+
+h5 {
+	font-size: 1.125em;
+	font-weight: 600;
+	color: #232631;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: 600;
+	color: #5a4fcf;
+}
+
+h2 {
+	font-size: 1.75em;
+	font-weight: 600;
+	color: #232631;
+}
+
+p {
+	color: #656565;
+	font-size: 1em;
+}
+
+#star {
+	height: 24px;
+	margin-right: 8px;
+}
+
+.btn-primary {
+	background-color: #fdc886;
+	border: none;
+	border-radius: 12px;
+	color: #232631;
+	padding: 16px 28px;
+	font-weight: 600;
+}
+
+.btn-primary:hover {
+	background-color: #fdc886;
+	border: none;
+	border-radius: 12px;
+	color: #232631;
+	padding: 16px 28px;
+	font-weight: 600;
+}
+
+.card-title {
+	font-size: 1.125em;
+	color: #232631;
+	font-weight: 600;
+	/* margin: 0px auto 12px auto; */
+}
+
+.chevron-right {
+	height: 0.5em;
+	margin-left: 10px;
+}
+
+.arrow-right {
+	height: 1em;
+}
+
+#rating-text {
+	color: #ffb800;
+	font-weight: 600;
+}
+
+#amount-text {
+	color: #656565;
+}
+
+#price-text {
+	font-weight: 600;
+}
+/* Navbar */
+.nav-item {
+	margin-right: 30px;
+}
+
+.nav-link {
+	color: #232631;
+	font-weight: 500;
+	font-size: 1em;
+}
+
+.active {
+	display: inline-block;
+	border-bottom: 2px solid #5a4fcf;
+	border-radius: 2px;
+	padding-bottom: 2px;
+}
+
+.navbar-brand {
+	font-family: Nunito;
+	font-weight: 800;
+	font-size: 1.75em;
+}
+
+.navbar-logo {
+	width: 34px;
+	height: 34px;
+	margin-right: 8px;
+}
+
+input#search {
+	background-image: url(../assets/images/Search.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: 5% 50%;
+	text-indent: 22px;
+	background-color: #ffffff;
+	padding: 16px 28px;
+	border: none;
+	width: 20em;
+	border-radius: 12px;
+}
+
+input.form-control {
+	padding: 16px 59px 16px 28px;
+	font-size: 1em;
+	font-weight: 500;
+	background-color: #ffffff;
+	color: #858585;
+	border: none;
+	border-radius: 12px;
+}
+
+.btn-login {
+	background-color: rgba(90, 79, 207, 0.1);
+	border: none;
+	color: #5a4fcf;
+	font-size: 1em;
+	font-weight: 600;
+	padding: 16px 28px;
+	border-radius: 12px;
+}
+
+.btn-login:hover {
+	background-color: rgba(149, 139, 255, 0.1);
+	border: none;
+	color: #5a4fcf;
+	font-size: 1em;
+	font-weight: 600;
+	padding: 16px 28px;
+	border-radius: 12px;
+}
+
+/* Benefit */
+#benefit {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+#icon-benefit {
+	width: 64px;
+	margin: 24px auto 24px auto;
+}
+
+.benefit-card {
+	border: none;
+	padding: 0;
+	height: 345px;
+	border-radius: 24px;
+}
+
+.benefit-card-text {
+	margin: 12px 1.5em 54px 1.5em;
+	font-size: 1em;
+}
+
+.btn-card-detail {
+	width: 100%;
+	padding: 24px 0;
+	font-size: 1em;
+	color: #232631;
+	font-weight: 600;
+	position: absolute;
+	bottom: 0;
+	border-radius: 12px 12px 24px 24px;
+	border: none;
+}
+
+.btn-card-detail:hover {
+	width: 100%;
+	margin: 0;
+	border: none;
+	padding: 24px 0;
+	border-radius: 12px 12px 24px 24px;
+	background-color: #fdc886;
+}
+
+/* Featured */
+
+#featured-img-1 {
+	background: url(../assets/images/featured-1.png);
+	border-radius: 24px;
+	background-size: cover;
+	height: 475px;
+}
+
+#featured-img-2 {
+	background: url(../assets/images/featured-2.png);
+	border-radius: 24px;
+	background-size: cover;
+	height: 475px;
+}
+
+#featured-img-3 {
+	background: url(../assets/images/featured-3.png);
+	border-radius: 24px;
+	background-size: cover;
+	height: 475px;
+}
+
+#featured-card {
+	border: none;
+	border-radius: 24px;
+	background-color: #ffffff;
+	margin-bottom: 24px;
+	padding: 1em;
+}
+
+.btn-card-featured {
+	border: none;
+	width: 36px;
+	height: 36px;
+	background-color: #fcbd71;
+	border-radius: 12px;
+}
+
+.btn-card-featured:hover {
+	border: none;
+	width: 36px;
+	height: 36px;
+	background-color: #fcbd71;
+	border-radius: 12px;
+}
+
+/* Nearby */
+#nearby {
+	margin-top: 120px;
+}
+
+.header-nearby {
+	display: flex;
+	justify-content: space-between;
+}
+
+#location {
+	padding: 20px 24px;
+	background-color: #f2f2f2;
+	border-radius: 12px;
+}
+
+#location span {
+	color: #232631;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+#icon-location {
+	height: 24px;
+}
+
+#location #chevron-bottom {
+	height: 9px;
+}
+
+#nearby-image-1 {
+	border-radius: 24px;
+	background-size: cover;
+	height: 415px;
+	background-image: url(../assets/images/nearby-1.png);
+}
+
+#nearby-image-2 {
+	border-radius: 24px;
+	background-size: cover;
+	height: 415px;
+	background-image: url(../assets/images/nearby-2.png);
+}
+
+#nearby-image-3 {
+	border-radius: 24px;
+	background-size: cover;
+	height: 415px;
+	background-image: url(../assets/images/nearby-3.png);
+}
